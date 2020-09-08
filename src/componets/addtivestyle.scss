@@ -1,0 +1,32 @@
+.additive {
+  margin: 15px 0 68px 0;
+  text-align: center;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 1;
+
+  &__link {
+    display: inline-block;
+    cursor: pointer;
+    border-bottom: 1px dashed rgb(22,152,217);
+    @extend .additive__dot;
+
+    &:hover {
+      color: red;
+    }
+  }
+
+  &-disabled {
+    height: 14px;
+    color: #ffff66;
+    @extend .additive;
+  }
+  &__dot {
+    color: #1698d9;
+    font-weight: bold;
+  }
+  &-selected {
+    height: 14px;
+    @extend .additive
+  }
+}

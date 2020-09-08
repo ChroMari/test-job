@@ -1,0 +1,31 @@
+{
+  "products" : [
+    {"id" : 0, "overhead" : "Сказачное заморское яство", "title" : "Нямушка", "subtitle" : "c фуа-гра", "portion" : 10, "present" : "мышь в подарок", "content" : false, "kilos" : "0,5", "instock" : true,  
+      "status": {
+      "selected" : false
+    }, 
+    "addProduct" : {
+      "selected" : "Печень утки разварная с артишоками.",
+      "default" : "Печалька, с фуа-гра закончился."
+    }
+  },
+    {"id" : 1, "overhead" : "Сказачное заморское яство", "title" : "Нямушка", "subtitle" : "c рыбой", "portion" : 40, "present" : "2 мыши в подарок", "content" : false, "kilos" : "2", "instock" : true, 
+      "status": {
+        "selected" : true
+      },
+      "addProduct": {
+        "selected" : "Головы щучьи с чесноком да свежайшая сёмгушка.",
+        "default" : "Печалька, с рыбой закончился."
+      }
+    },
+    {"id" : 3, "overhead" : "Сказачное заморское яство", "title" : "Нямушка", "subtitle" : "c курой", "portion" : 100, "present" : "5 мышей в подарок", "content" : true, "kilos" : "5", "instock" : false,  
+      "status": {
+        "selected" : false
+    },
+    "addProduct": {
+      "selected" : "Филе из цыплят с трюфелями в бульоне.",
+      "default" : "Печалька, с курой закончился."
+    }
+  }
+  ]
+}
